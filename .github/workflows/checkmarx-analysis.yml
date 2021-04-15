@@ -29,7 +29,7 @@ jobs:
         # project: GithubActionTest
         project: BookStoreJava_21403_lines
         team: 'CxServer/SP/APAC/pcs-security.com - 65'
-        checkmarx_url: ${{ secrets.CHECKMARX_URL }}
+        checkmarx_url: https://cxapactrial.checkmarx.net #${{ secrets.CHECKMARX_URL }}
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
